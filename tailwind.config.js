@@ -10,15 +10,7 @@ module.exports = {
   ],
   
   theme: {
-    extend: {
-      fontFamily: {
-        'sans': ['"Open Sans"', 'sans-serif'],
-      },
-      colors: {
-        primary: '#fc7c5c',
-        secondary: '#d6b183'
-      }
-    }
+    extend: {}
   },
 
   plugins: [],

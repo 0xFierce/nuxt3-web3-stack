@@ -3,6 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   modules: [
+    [
+      '@use-wagmi/nuxt',
+      {
+        excludeImports: ['useQuery'],
+      },
+    ],
     '@nuxtjs/apollo',
     '@pinia/nuxt',
     '@vueuse/nuxt',
@@ -11,7 +17,6 @@ export default defineNuxtConfig({
     '@vee-validate/nuxt',
     '@nuxt/image',
     'dayjs-nuxt',
-    'nuxt-particles',
     'nuxt-lodash'
   ],
 

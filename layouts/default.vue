@@ -4,10 +4,15 @@
 
 <template>
 
-    <div class="flex flex-col justify-between min-h-screen bg-white">
+    <div class="flex flex-col justify-between min-h-screen p-4 bg-white">
+     
+      <div class="">
 
-      <div class="container">
-        <main class="flex">
+        <div class="flex justify-end">
+          <WalletConnectButton />
+        </div>
+
+        <main class="">
           <slot />
         </main>
       </div>
